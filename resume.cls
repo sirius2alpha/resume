@@ -67,7 +67,7 @@
 }
 
 \newcommand{\name}[1]{
-  \centerline{\Huge\scshape{#1}}
+  \centerline{\huge\scshape{#1}}
   \vspace{1.2ex}
 }
 
@@ -86,4 +86,36 @@
 \newcommand{\role}[2]{
   {\par \textit{#1} ~ #2 \par}
   \vspace{0.5ex}
+}
+
+\newcommand{\tableInfo}[4]{
+  \begin{tabular}{@{}l@{}}
+    \huge\scshape #1 \\[0.5ex]% 姓名
+    \large\sffamily #2 \\ % 博客
+  \end{tabular}
+  \hfill
+  \begin{tabular}{r@{}}
+    \large\sffamily Tel: #3 \\[1.5ex] % 电话
+    \large\sffamily E-mail: #4 \\ % 邮箱s
+  \end{tabular}
+}
+
+\newcommand{\rightInfo}[5]{
+  \begin{flushright}
+    \begin{tabular}{@{}r}
+      \Huge\scshape #1 \\[1.2ex]% 姓名
+      \faHome\ \large\sffamily #4 | \faGithub\ \large\sffamily #5 \\[0.8ex]% 主页和github
+      \faPhone\ \large\sffamily #2  | \faEnvelope\ \large\sffamily  #3 \\[0.8ex] % 电话和邮箱
+    \end{tabular}
+  \end{flushright}
+}
+
+\newcommand{\leftInfo}[5]{
+  \begin{flushleft}
+    \begin{tabular}{@{}l}
+      \Huge\scshape #1 \\[0.8ex]% 姓名
+      \faHome\ \large\sffamily #4 | \faGithub\ \large\sffamily #5 \\[0.8ex]% 主页和github
+      \faPhone\ \large\sffamily #2  | \faEnvelope\ \large\sffamily  #3 \\[0.8ex] % 电话和邮箱
+    \end{tabular}
+  \end{flushleft}
 }
