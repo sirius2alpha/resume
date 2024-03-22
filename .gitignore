@@ -38,9 +38,16 @@ jspm_packages
 
 # tex temporary
 *.aux
+*.fdb_latexmk
 *.fls
 *.log
-*.out
-*.toc
 *.synctex.gz
 *.xdv
+*.out
+*.toc
+
+# private
+my_resume.tex
+
+# output file
+*.pdf

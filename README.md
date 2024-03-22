@@ -4,6 +4,8 @@
 
 项目修改自 [resume](https://github.com/hijiangtao/resume)，新增了带照片的heading
 
+简历内容详细攻略：[SHU-CS-Source-Share](https://github.com/1051727403/SHU-CS-Source-Share/blob/main/%E5%B0%B1%E4%B8%9A%E7%9B%B8%E5%85%B3/%E7%AE%80%E5%8E%86/%E7%AE%80%E5%8E%86%E6%94%BB%E7%95%A5.md)
+
 ## 项目说明
 
 一个的 LaTeX 简历模板
