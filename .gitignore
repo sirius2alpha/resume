@@ -47,7 +47,7 @@ jspm_packages
 *.toc
 
 # private
-my_resume.tex
+my*
 
 # output file
 *.pdf
